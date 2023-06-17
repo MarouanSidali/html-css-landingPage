@@ -45,3 +45,77 @@ nav a.active:before {
 
 /* Hero section */
 
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+}
+.left-col {
+    width: 45%;
+}
+.right-col {
+    flex-grow: 1;
+}
+h1 {
+    font-size: 5.2rem;
+    font-family: 'playfair display';
+    font-weight: normal;
+    margin: 0;
+}
+.subhead {
+    font-size: 1.8rem;
+}
+.cta-btns {
+    margin: 5em 0;
+}
+.cta-btns, .secondary-cta {
+    display: flex;
+    gap: 2em;
+}
+.primary-cta {
+    background-color: #F1E2D1;
+    font-size :1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.9em;
+    padding: 1em 2em;
+}
+.secondary-cta {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 1em 0;
+}
+.secondary-cta svg {
+    width: 20px;
+}
+
+.news { 
+    display: flex;
+    gap: 3em;
+    padding: 5em;
+    border: 1px solid black;
+    border-radius: .8em;
+    position: relative;
+}
+.news:before {
+    content:"";
+    position: absolute;
+    background: url('../images/confetti.svg');
+    height: 100px;
+    width: 100px;
+    top: -20px;
+    left: -20px;
+    z-index: 2;
+}
+p.employees {
+    font-weight: 200;
+    font-size: 3.3rem;
+    margin: 0;
+    line-height: 100%;
+}
+p.details {
+    margin: 0;
+    font-size: 1.4rem;
+}
