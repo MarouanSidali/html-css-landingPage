@@ -1,0 +1,47 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    font-family: 'poppins';
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    margin: 4em;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4.1em;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.6rem;
+    position: relative;
+}
+nav a.active:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 35%;
+    border-bottom: 2px solid black;
+    bottom: -5px;
+
+}
+
+/* Hero section */
+
